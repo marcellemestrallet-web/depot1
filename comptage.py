@@ -11,6 +11,9 @@
 
 def lire():
     # récupération des arguments et sélection du flux
+    import sys
+    for caractere in sys.stin.read() :
+        print(caractere)
     # parcours du flux
     # comptage
     # affichage 
